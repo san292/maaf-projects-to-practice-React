@@ -1,0 +1,13 @@
+.container{
+
+
+border:2px solid;
+border-radius: 10px;
+margin-top: 0.4rem;
+
+
+}
+.container-title{
+    font-size: 1.4rem;
+    color: brown;
+}
