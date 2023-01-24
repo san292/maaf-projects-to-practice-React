@@ -1,1 +1,1 @@
-# maaf-projects-to-practice-React
+# projects-to-practice-React
