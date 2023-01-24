@@ -1,0 +1,38 @@
+
+#container{
+width: 80vw;
+height: 100vh;
+/* background-color: red; */
+flex-wrap: wrap;
+padding: 2rem;
+}
+  #card {
+   margin-top: 0.2rem;
+    width:150px;
+    height: 120px;
+   padding: 2rem;
+   margin-top: 1rem;
+    background: #E9E2D0;
+    box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  #card img {
+    
+    width: 100px;
+    border-radius: 5px;
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+    filter: sepia(1);
+  }
+  
+  #card h2 {
+    font-family: courier;
+    color: #333;
+    font-size: 15pt;
+  }
+  
