@@ -1,0 +1,25 @@
+{
+    "env": {
+      ...
+      "jest/globals": true
+    },
+    "plugins": [
+      "import",
+      "promise",
+      "jest"
+    ],
+    "rules": {
+      ...
+      "import/extensions": "off",
+      "import/no-unresolved": "error",
+      "import/no-named-as-default": "off",
+      "import/no-named-as-default-member": "off",
+      "import/no-extraneous-dependencies": "off",
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "promise/param-names": "error",
+      "promise/always-return": "error",
+      "promise/catch-or-return": "error"
+    }
+  }
